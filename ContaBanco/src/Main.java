@@ -30,6 +30,6 @@ public class Main {
         Double saldo = sc.nextDouble();
 
         ContaTerminal ct = new ContaTerminal(numero, nomeCliente, agencia, saldo);
-        ct.scanTerminal();
+        ct.printScanned();
     }
 }
